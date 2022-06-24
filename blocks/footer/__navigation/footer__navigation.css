@@ -1,0 +1,12 @@
+.footer__navigation {
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+
+    .footer__navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 32px 0;
+    }
+}
