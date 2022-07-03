@@ -6,6 +6,7 @@
     color: #ffffff;
     font-family: "Inter", Arial, sans-serif;
     font-weight: 900;
+    font-style: normal;
     grid-area: title;
 }
 
@@ -19,8 +20,6 @@
 
 @media screen and (max-width: 320px) {
     .place__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         margin: 0 16px 0 16px;
